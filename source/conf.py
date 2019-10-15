@@ -4,6 +4,11 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+# -- Theme setup --------------------------------------------------------------
+
+import sphinx_rtd_theme
+
+
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -31,6 +36,8 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+	'recommonmark',
+	'sphinx_rtd_theme',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -60,3 +67,12 @@ html_theme = 'alabaster'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+# -- Options for LaTeX output ---------------------------------------------
+# 注：在生成html的时候这句话要注释
+# latex_engine = 'xelatex'
+
+latex_elements={
+	'preamble': r'''\usepackage{ctex}'''
+}
