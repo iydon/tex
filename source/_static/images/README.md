@@ -1,5 +1,5 @@
 # 1 声明
-图片取自网络（大部分来自“LaTeX技术交流1群”），如有侵权，请在此仓库下[提出](https://github.com/Iydon/latex_resources/issues)，谢谢。
+图片取自网络 (大部分来自"LaTeX技术交流1群"), 如有侵权, 请在此仓库下[提出](https://github.com/Iydon/tex/issues), 谢谢.
 
 
 
@@ -17,13 +17,13 @@
 [02][], [04][], [07][].
 
 ## 2.5 如何提问
-[08][], [10][], [12][], [13][].
+[08][], [10][], [12][], [13][], [15][].
 
 
 
 # 3 其他在线图片
-## 3.1 《The TeXBook》的插图
-使用如下命令下载：
+## 3.1 <The TeXBook> 的插图
+使用如下命令下载:
 ```Shell
 curl -O http://static.latexstudio.net/wp-content/uploads/2014/02/TeXBook-vector.zip
 ```
@@ -45,3 +45,4 @@ curl -O http://static.latexstudio.net/wp-content/uploads/2014/02/TeXBook-vector.
 [12]: 12.jpg
 [13]: 13.jpg
 [14]: 14.jpg
+[15]: 15.jpg
