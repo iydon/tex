@@ -10,4 +10,6 @@ LaTeX 资源及学习路径
    :maxdepth: 2
    :caption: 目录
 
-   preface
+   sections/0-preface
+   sections/1-learning_route
+   sections/2-resources
