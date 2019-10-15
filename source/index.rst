@@ -8,6 +8,6 @@ LaTeX 资源及学习路径
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 目录
 
-   contents
+   preface
