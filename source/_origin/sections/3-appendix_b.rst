@@ -1,13 +1,11 @@
-===============
-附录 B - 作者需检查的更新
-===============
+\section('附录 B - 作者需检查的更新')
 :TeX Live:
-	`texlive2019.iso <https://mirrors.ctan.org/systems/texlive/Images>`_
+	\href('https://mirrors.ctan.org/systems/texlive/Images', 'texlive2019.iso')
 :MiKTeX:
-	`miktex-2.9.7140.tar.xz <https://mirrors.ctan.org/systems/win32/miktex/source>`_
+	\href('https://mirrors.ctan.org/systems/win32/miktex/source', 'miktex-2.9.7140.tar.xz')
 
 :Install LaTeX:
-	`v6.0 <https://github.com/OsbertWang/install-latex/releases>`_
+	\href('https://github.com/OsbertWang/install-latex/releases', 'v6.0')
 
 :TeXstudio:
-	`2.12.16 <https://github.com/texstudio-org/texstudio/releases>`_
+	\href('https://github.com/texstudio-org/texstudio/releases', '2.12.16')

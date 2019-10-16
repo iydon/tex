@@ -1,0 +1,48 @@
+\new_macro(
+	\section(name){
+		length = max(len(name), 4)
+		print('=' * length)
+		print(name)
+		print('=' * length, end='')
+	}
+	\subsection(name){
+		length = max(len(name), 4)
+		print('-' * length)
+		print(name)
+		print('-' * length, end='')
+	}
+	\href(url, text){
+		print(f'`{text} <{url}>`_', end='')
+	}
+	\today(){
+		from datetime import datetime
+
+		print(datetime.now().strftime('%Y年%m月%d日'), end='')
+	}
+	\it(text){
+		print(f'*{text}*', end='')
+	}
+	\bf(text){
+		print(f'**{text}**', end='')
+	}
+	\code(text, level=2){
+		delimiter = '`' * level
+		print(f'{delimiter}{text}{delimiter}', end='')
+	}
+	\code_block(text, type_='shell'){
+		print()
+		print(f'.. code-block:: {type_}')
+		print()
+		print('\t' + text.replace('\n', '\n\t'))
+		print()
+	}
+	\cache(**kwargs){
+		_globals = globals()
+		for kwarg in kwargs:
+			_globals[kwarg] = kwargs[kwarg]
+	}
+	\get_cache(key){
+		_globals = globals()
+		print(_globals[key], end='')
+	}
+)

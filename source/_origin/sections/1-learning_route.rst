@@ -1,4 +1,2 @@
-==========
-LaTeX 学习路线
-==========
+\section('LaTeX 学习路线')
 Lipsum

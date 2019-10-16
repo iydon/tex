@@ -1,4 +1,2 @@
-==========
-LaTeX 相关资源
-==========
+\section('LaTeX 相关资源')
 Lipsum

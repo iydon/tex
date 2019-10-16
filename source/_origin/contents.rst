@@ -1,7 +1,5 @@
-====
-声明
-====
-如果不加 ``contents.*`` 文件在 `readthedocs <https://readthedocs.org>`_ 网站编译会产生如下错误，如果知道解决方案，请提 `issue <https://github.com/Iydon/tex/issues>`_.
+\section('声明')
+如果不加 \code('contents.*') 文件在 \href('https://readthedocs.org', 'readthedocs') 网站编译会产生如下错误，如果知道解决方案，请提 \href('https://github.com/Iydon/tex/issues', 'issue').
 ::
 
 	$ python /home/docs/checkouts/readthedocs.org/user_builds/tex/envs/latest/bin/sphinx-build -T -b readthedocs -d _build/doctrees-readthedocs -D language=zh_CN . _build/html

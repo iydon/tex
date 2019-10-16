@@ -4,7 +4,7 @@
 -----------
 下载 TeX  发行版
 -----------
-以下命令采用 CTAN 镜像网站自动重定向至较快的镜像网站进行下载发行版, 请将其输入进命令行中. 如需指定镜像网址, 请访问 `镜像列表 <https://www.ctan.org/mirrors>`_ 进行进一步的选择.
+以下命令采用 CTAN 镜像网站自动重定向至较快的镜像网站进行下载发行版, 请将其输入进命令行中. 如需指定镜像网址, 请访问`镜像列表 <https://www.ctan.org/mirrors>`_进行进一步的选择.
 
 :TeX Live:
 
@@ -12,11 +12,15 @@
 
 	curl -O https://mirrors.ctan.org/systems/texlive/Images/texlive2019.iso
 
+
+
 :MiKTeX:
 
 .. code-block:: shell
 
 	curl -O https://mirrors.ctan.org/systems/win32/miktex/source/miktex-2.9.7140.tar.xz
+
+
 
 
 ----------
@@ -29,6 +33,8 @@
 	curl -O https://github.com/OsbertWang/install-latex/releases/download/v6.0/Install-LaTeX.pdf
 
 
+
+
 ----------
 安装 TeX 编辑器
 ----------
@@ -38,12 +44,14 @@
 
 	:: Windows
 	curl -O https://github.com/texstudio-org/texstudio/releases/download/2.12.16/texstudio-2.12.16-win-qt5.exe
-
+	
 	# MacOS
 	curl -O https://github.com/texstudio-org/texstudio/releases/download/2.12.16/texstudio-2.12.16-osx.dmg
-
+	
 	# Linux
 	echo 'DIY (do it yourself)'
+
+
 
 :其他编辑器:
 	请参照相应文档进行配置.
@@ -57,6 +65,8 @@
 .. code-block:: shell
 
 	curl -O http://mirrors.ctan.org/info/lshort/chinese/lshort-zh-cn.pdf
+
+
 
 
 

@@ -1,46 +1,30 @@
-====
-前言
-====
-----
-项目主页
-----
+\section('前言')
+\subsection('项目主页')
 源代码
-	`GitHub <https://github.com/Iydon/tex>`_
+	\href('https://github.com/Iydon/tex', 'GitHub')
 在线文档
-	`Read the Docs <https://python-cookbook.readthedocs.io>`_
+	\href('https://python-cookbook.readthedocs.io', 'Read the Docs')
 
 
-----
-作者的话
-----
+\subsection('作者的话')
 我于2017年末接触 LaTeX, 
 
 
------------
-谁适合使用 LaTeX
------------
+\subsection('谁适合使用 LaTeX')
 Lipsum
 
 
-------------
-谁不适合使用 LaTeX
-------------
+\subsection('谁不适合使用 LaTeX')
 Lipsum
 
 
--------------
-快速获取文档提到的全部资料
--------------
-请参照`附录 A <3-appendix_a.html>`_.
+\subsection('快速获取文档提到的全部资料')
+请参照\href('3-appendix_a.html', '附录 A').
 
 
-----
-联系我们
-----
+\subsection('联系我们')
 Lipsum
 
-----
 
-感谢
-----
+\subsection('感谢')
 Lipsum
