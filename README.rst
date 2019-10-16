@@ -9,6 +9,5 @@ TeX
 
 TODO
 ----
-1. Convert MarkDown to reStructuredText.
-#. Add content.
+1. Add content.
 #. Fix the sidebar that is not fully displayed.
