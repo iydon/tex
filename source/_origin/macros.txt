@@ -33,7 +33,7 @@
 		print()
 		print(f'.. code-block:: {type_}')
 		print()
-		print('\t' + text.replace('\n', '\n\t'))
+		print('\backslash()t' + text.replace('\backslash()n', '\backslash()n\backslash()t'))
 		print()
 	}
 	\cache(**kwargs){

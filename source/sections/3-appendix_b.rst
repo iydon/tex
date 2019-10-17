@@ -5,6 +5,8 @@
 	`texlive2019.iso <https://mirrors.ctan.org/systems/texlive/Images>`_
 :MiKTeX:
 	`miktex-2.9.7140.tar.xz <https://mirrors.ctan.org/systems/win32/miktex/source>`_
+:MacTeX:
+	`mactex-20190508.pkg <https://mirrors.ctan.org/systems/mac/mactex>`_
 
 :Install LaTeX:
 	`v6.0 <https://github.com/OsbertWang/install-latex/releases>`_

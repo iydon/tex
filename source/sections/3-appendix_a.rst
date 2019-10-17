@@ -1,16 +1,18 @@
 =============
 附录 A - 快速获取资料
 =============
------------
-下载 TeX  发行版
------------
-以下命令采用 CTAN 镜像网站自动重定向至较快的镜像网站进行下载发行版, 请将其输入进命令行中. 如需指定镜像网址, 请访问`镜像列表 <https://www.ctan.org/mirrors>`_进行进一步的选择.
+----------
+下载 TeX 发行版
+----------
+如果访问 OverLeaf_ 方便, 同时电脑硬盘局限, 请首先考虑使用 OverLeaf_ 进行云端编译. 否则如果电脑容量充足 (至少需要 **8G**), 可以考虑下载 TeX 发行版进行本地编译, 对于完全没有或只有一点接触过 **TeX** 的人来说, 推荐使用 **TeX Live**, 因为省去折腾下载安装宏包的麻烦, 可以更好地学习使用 **TeX**.
+
+请手动打开以下链接下载 TeX 发行版, 链接虽为 CTAN 镜像网站, 但其会自动重定向至较快的镜像网站进行下载. 如需指定镜像网址, 请访问 镜像列表_ 进行进一步的选择.
 
 :TeX Live:
 
 .. code-block:: shell
 
-	curl -O https://mirrors.ctan.org/systems/texlive/Images/texlive2019.iso
+	https://mirrors.ctan.org/systems/texlive/Images/texlive2019.iso
 
 
 
@@ -18,7 +20,15 @@
 
 .. code-block:: shell
 
-	curl -O https://mirrors.ctan.org/systems/win32/miktex/source/miktex-2.9.7140.tar.xz
+	https://mirrors.ctan.org/systems/win32/miktex/source/miktex-2.9.7140.tar.xz
+
+
+
+:MacTeX:
+
+.. code-block:: shell
+
+	https://mirrors.ctan.org/systems/mac/mactex/MacTeX.pkg
 
 
 
@@ -30,7 +40,7 @@
 
 .. code-block:: shell
 
-	curl -O https://github.com/OsbertWang/install-latex/releases/download/v6.0/Install-LaTeX.pdf
+	https://github.com/OsbertWang/install-latex/releases/download/v6.0/Install-LaTeX.pdf
 
 
 
@@ -42,11 +52,11 @@
 
 .. code-block:: shell
 
-	:: Windows
-	curl -O https://github.com/texstudio-org/texstudio/releases/download/2.12.16/texstudio-2.12.16-win-qt5.exe
+	# Windows
+	https://github.com/texstudio-org/texstudio/releases/download/2.12.16/texstudio-2.12.16-win-qt5.exe
 	
 	# MacOS
-	curl -O https://github.com/texstudio-org/texstudio/releases/download/2.12.16/texstudio-2.12.16-osx.dmg
+	https://github.com/texstudio-org/texstudio/releases/download/2.12.16/texstudio-2.12.16-osx.dmg
 	
 	# Linux
 	echo 'DIY (do it yourself)'
@@ -64,10 +74,12 @@
 
 .. code-block:: shell
 
-	curl -O http://mirrors.ctan.org/info/lshort/chinese/lshort-zh-cn.pdf
+	http://mirrors.ctan.org/info/lshort/chinese/lshort-zh-cn.pdf
 
 
 
 
 
+.. _OverLeaf: 
+.. _镜像列表: 'https://www.ctan.org/mirrors'
 .. _啸行: https://github.com/OsbertWang

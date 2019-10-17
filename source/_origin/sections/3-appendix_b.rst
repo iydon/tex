@@ -1,11 +1,13 @@
 \section('附录 B - 作者需检查的更新')
 :TeX Live:
-	\href('https://mirrors.ctan.org/systems/texlive/Images', 'texlive2019.iso')
+	\href(\get_cache('texlive'), \get_cache('texlive_version'))
 :MiKTeX:
-	\href('https://mirrors.ctan.org/systems/win32/miktex/source', 'miktex-2.9.7140.tar.xz')
+	\href(\get_cache('miktex'), \get_cache('miktex_version'))
+:MacTeX:
+	\href(\get_cache('mactex'), \get_cache('mactex_version'))
 
 :Install LaTeX:
-	\href('https://github.com/OsbertWang/install-latex/releases', 'v6.0')
+	\href(\get_cache('install_latex'), \get_cache('install_latex_version'))
 
 :TeXstudio:
-	\href('https://github.com/texstudio-org/texstudio/releases', '2.12.16')
+	\href(\get_cache('texstudio'), \get_cache('texstudio_version'))

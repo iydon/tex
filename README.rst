@@ -10,4 +10,3 @@ TeX
 TODO
 ----
 1. Add content.
-#. Fix the sidebar that is not fully displayed.
