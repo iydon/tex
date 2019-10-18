@@ -1,10 +1,13 @@
 # Cache the information
 \cache(
+	# Information
+	iydon_email = "'11711217@mail.sustech.edu.cn'",
 	# CTAN and pkgs
 	ctan_mirrors = "'https://www.ctan.org/mirrors'",
 	lshort = "'http://mirrors.ctan.org/info/lshort/chinese/lshort-zh-cn.pdf'",
 	# Overleaf
-	overleaf = "",
+	overleaf = "'https://www.overleaf.com/'",
+	overleaf_template = "'https://www.overleaf.com/latex/templates'",
 	# TeX Live
 	texlive = "'https://mirrors.ctan.org/systems/texlive/Images'",
 	texlive_version = "'texlive2019.iso'",
@@ -28,4 +31,20 @@
 	texstudio_mac = "https://github.com/texstudio-org/texstudio/releases/download/2.12.16/texstudio-2.12.16-osx.dmg",
 	# 啸行大哥
 	啸行 = "https://github.com/OsbertWang",
+	# Resources
+	terms = "'https://zhuanlan.zhihu.com/p/45350320'",
+	how_to_fix_problems = "'https://rscript.readthedocs.io/en/latest/preparation/\hashtag()how-to-fix-the-problems'",
+	how_to_ask_questions = "'https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md'",
+	google = "'https://www.google.com/'",
+	bing = "'https://www.bing.com/'",
+	wenda_latexstudio = "'https://wenda.latexstudio.net/'",
+	tex_stackexchange = "'https://tex.stackexchange.com/'",
+	ctex_forum = "'https://github.com/CTeX-org/forum'",
+	tikz = "'https://wenda.latexstudio.net/q-1250.html'",
+	compile_process = "'https://mp.weixin.qq.com/s/MR94nk_gJIvOPl7kmJ1biA'",
+	latex_studio = "'http://www.latexstudio.net/'",
+	latex_community = "'https://latex.org/forum/'",
+	detexify = "'http://detexify.kirelabs.org/classify.html'",
+	table_generator = "'http://tablesgenerator.com/'",
+	mathpix = "'https://mathpix.com/'",
 )

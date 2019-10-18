@@ -16,3 +16,4 @@
 
    sections/3-appendix_a
    sections/3-appendix_b
+   sections/3-appendix_c

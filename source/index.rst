@@ -6,7 +6,7 @@
 LaTeX 资源及学习路径
 =============
 
-本文档最后更新于 ``2019年10月17日``.
+本文档最后更新于 ``2019年10月18日``.
 
 .. toctree::
    :maxdepth: 2
@@ -18,3 +18,4 @@ LaTeX 资源及学习路径
 
    sections/3-appendix_a
    sections/3-appendix_b
+   sections/3-appendix_c

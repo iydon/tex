@@ -36,6 +36,10 @@
 		print('\backslash()t' + text.replace('\backslash()n', '\backslash()n\backslash()t'))
 		print()
 	}
+	\includegraphics(file){
+		print()
+		print('.. image:: /_static/images/'+file)
+	}
 	\cache(**kwargs){
 		_globals = globals()
 		for kwarg in kwargs:

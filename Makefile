@@ -12,16 +12,21 @@ BUILDDIR      = build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-# Parser macros and display in FireFox
-macro:
-	cd source/_origin ; python3 make.py
-
-show:
-	firefox build/html/index.html
-
 .PHONY: help Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+# Parse macros
+macro:
+	cd source/_origin ; python3 make.py
+
+# Display in FireFox
+show:
+	firefox build/html/index.html &
+
+# Test the project
+test:
+	pytest -q tests.py
