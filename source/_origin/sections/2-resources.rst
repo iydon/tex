@@ -23,7 +23,7 @@ Options:
 
 
 \subsection('Tikz 入门')
-请阅读 \href(\get_cache('wenda_latexstudio'), 'LaTeX Studio') 上面的回答: \href(\get_cache('tikz'), Tikz).
+请阅读 \href(\get_cache('wenda_latexstudio'), 'LaTeX Studio') 上面的回答: \href(\get_cache('tikz'), 'Tikz').
 
 
 \subsection('字体')
