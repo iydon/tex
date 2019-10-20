@@ -3,10 +3,10 @@
 	# Information
 	iydon_email = "'11711217@mail.sustech.edu.cn'",
 	# CTAN and pkgs
-	ctan_mirrors = "'https://www.ctan.org/mirrors'",
+	ctan_mirrors = "https://www.ctan.org/mirrors",
 	lshort = "'http://mirrors.ctan.org/info/lshort/chinese/lshort-zh-cn.pdf'",
 	# Overleaf
-	overleaf = "'https://www.overleaf.com/'",
+	overleaf = "https://www.overleaf.com/",
 	overleaf_template = "'https://www.overleaf.com/latex/templates'",
 	# TeX Live
 	texlive = "'https://mirrors.ctan.org/systems/texlive/Images'",
