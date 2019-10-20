@@ -40,7 +40,7 @@
 
 .. code-block:: shell
 
-	https://github.com/OsbertWang/install-latex/releases/download/v6.0/Install-LaTeX.pdf
+	https://github.com/OsbertWang/install-latex/releases/download/v6.2/Install-LaTeX.pdf
 
 
 

@@ -22,8 +22,8 @@
 	mactex_download = "'https://mirrors.ctan.org/systems/mac/mactex/MacTeX.pkg'",
 	# Install LaTeX
 	install_latex = "'https://github.com/OsbertWang/install-latex/releases'",
-	install_latex_version = "'v6.0'",
-	install_latex_download = "'https://github.com/OsbertWang/install-latex/releases/download/v6.0/Install-LaTeX.pdf'",
+	install_latex_version = "'v6.2'",
+	install_latex_download = "'https://github.com/OsbertWang/install-latex/releases/download/v6.2/Install-LaTeX.pdf'",
 	# TeXstudio
 	texstudio = "'https://github.com/texstudio-org/texstudio/releases'",
 	texstudio_version = "'2.12.16'",

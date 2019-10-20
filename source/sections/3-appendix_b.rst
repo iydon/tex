@@ -9,7 +9,7 @@
 	`mactex-20190508.pkg <https://mirrors.ctan.org/systems/mac/mactex>`_
 
 :Install LaTeX:
-	`v6.0 <https://github.com/OsbertWang/install-latex/releases>`_
+	`v6.2 <https://github.com/OsbertWang/install-latex/releases>`_
 
 :TeXstudio:
 	`2.12.16 <https://github.com/texstudio-org/texstudio/releases>`_
